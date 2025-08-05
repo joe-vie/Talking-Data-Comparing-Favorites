@@ -74,17 +74,17 @@ input("Press enter to see data visualizations.\n")
 
 #Part 6 Create graphs
 #Create histogram
-
+plt.hist(actionAdventureMovieData["audience_rating"], range=(0, 100), bins=20) # displays the histogram that displays the data of audience_rating; range is meant to show how our diagram is going from 0 to 100 bc it's a percentage; the bin is representing the spread of the histogram
 
 #Adds labels and adjusts histogram
 plt.grid(True)
-plt.title("")
-plt.xlabel("")
-plt.ylabel("")
+plt.title("Audience Ratings of Action & Adventure Movies Histogram")
+plt.xlabel("Audience Ratings")
+plt.ylabel("Number of Action & Adventure Movies")
 
 #Prints interpretation of histogram
 print(
-  "According to the histogram, ..."
+  "According to the histogram, the audience ratings between 60-65 are applicable to 280 Action & Adventure movies"
 )
 print("Close the graph by pressing the 'X' in the top right corner.")
 print()
@@ -93,19 +93,19 @@ print()
 plt.show()
 
 #Create scatterplot
-
+plt.scatter(data = actionAdventureMovieData, x = "audience_rating", y = "critic_rating") # the reason we don't do the brackets n stuff like that is bc the plt library is pulling data directly rather than u having to call for it
 
 #Adds labels and adjusts scatterplot
 plt.grid(True)
-plt.title("")
-plt.xlabel("")
-plt.ylabel("")
+plt.title("Audience Rating vs. Critic Rating")
+plt.xlabel("Audience Rating")
+plt.ylabel("Critic Rating")
 plt.xlim(0, 100)
 plt.ylim(0, 100)
 
 #Prints interpretation of scatterplot
 print(
-  "According to the scatter plot, ..."
+  "According to the scatter plot, there is a positive correlation between the audience rating and critic rating. One specific thing to note was the fact that we were dealing with a LARGE dataset so it made the data a lot more saturated-something to keep in mind for future investigations."
 )
 print()
 
