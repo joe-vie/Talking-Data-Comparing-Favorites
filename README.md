@@ -20,3 +20,5 @@ The rotten_tomatoes_movies.csv data was originally scrapped by Stefano Leone and
 ### ← rotten_tomatoes_movies.csv quick note
 
 The rotten_tomatoes_movies.csv file is a file containing data scraped from Rotten Tomatoes by Stefano Leone. The data was made modified to make student usability easier. Modifications include: Creating the year_released column based on original_release_date, dropping NA values, and selecting out the columns: movie_title, year_released, critic_rating, audience_rating, genres.
+
+TIME SPENT: 1 hour and 42 minutes :3
