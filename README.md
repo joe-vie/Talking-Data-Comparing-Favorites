@@ -1,6 +1,6 @@
 # Talking Data: Comparing Favorites Starter Code
 
-A project dedicated towards comparing the rating of The LEGO Movie to other Action & Adventure Movies
+A Python project dedicated towards comparing the rating of The LEGO Movie to other Action & Adventure Movies
 
 ### Project Requirements
 
@@ -12,6 +12,9 @@ My project includes the following:
 - Printing how the min, max mean, and median compare to my favorite movie's value.
 - Creating a histogram and using a print statement to describe it.
 - Creating a scatter plot and using a print statement to describe the relationship between two variables.
+
+### Journey making this project
+It was certainly one heck of a journey but I had a lot of fun getting to create a really wonderful project! One of my biggest struggles was making sure that my Python code was working as smoothly as it is right now. Nonetheless, I was able to push through and I'm really proud of what I've been able to make so far. These small steps pave the way for something a whole lot better!
 
 ### Attributions
 
